@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  website:
+    image: nginx
+    restart: always
+    ports:
+      - 9011:80
+    volumes:
+      - ./porsche_website:/usr/share/nginx/html
+    container_name: porsche
+    environment:
+      - NGINX_HOST=localhost
+      - NGINX_PORT=9002
