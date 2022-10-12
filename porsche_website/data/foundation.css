@@ -12,11 +12,29 @@
 .centerDiv {
     position: absolute;
     text-align: center;
-    margin: 0 0 auto;
+    margin: 0 auto;
     overflow: hidden;
 }
 
 .outer {
     position: relative;
     justify-content: center;
+}
+
+.title {
+    font-size: 12vw;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.paypal {
+    scale: 0.5;
+    margin: -250;
+}
+
+.ps {
+    font-size: 10vw;
+    color: rgb(162, 162, 162);
+    margin-left: 5%;
+    margin-right: 5%;
 }
