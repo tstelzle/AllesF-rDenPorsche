@@ -10,6 +10,8 @@ function init() {
 
 function startAnimation() {
     stopAnimation();
+    var audio = new Audio('data/sounds/car.mp3');
+    audio.play();
     imgObj.style.left = startPosition;
     animateCar()
 }
