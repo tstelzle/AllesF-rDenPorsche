@@ -9,8 +9,14 @@
     justify-content: center;
 }
 
-.centerDiv{
+.centerDiv {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    text-align: center;
+    margin: 0 0 auto;
+    overflow: hidden;
+}
+
+.outer {
+    position: relative;
+    justify-content: center;
 }
